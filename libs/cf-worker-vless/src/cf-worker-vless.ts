@@ -21,7 +21,7 @@ export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
     let address = '';
     let portWithRandomLog = '';
-    const userID = env.UUID || '7f14e42a-f453-4c39-a762-019ee493237d';
+    const userID = env.UUID || '474167ae-5e7e-45f1-ab18-527209f31397';
     const isVaildUUID = validate(userID);
 
     const log = (info: string, event?: any) => {
